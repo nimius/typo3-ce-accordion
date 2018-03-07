@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en">
+        <header/>
+        <body>
+            <trans-unit id="title">
+                <source>Accordion</source>
+            </trans-unit>
+            <trans-unit id="description">
+                <source>A container with multiple toggleable content elements.</source>
+            </trans-unit>
+            <trans-unit id="content">
+                <source>Accordion elements</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,17 @@
+/*
+ * This file is part of the "ce_accordion" Extension for TYPO3 CMS.
+ *
+ * For the full copyright and license information, please read the
+ * LICENSE.txt file that was distributed with this source code.
+ */
+
+/*
+ * Accordion rendering definition.
+ */
+tt_content.gridelements_pi1.20.10.setup {
+    tx_ceaccordion < .default
+    tx_ceaccordion {
+        cObject = FLUIDTEMPLATE
+        cObject.file = EXT:ce_accordion/Resources/Private/Templates/Accordion.html
+    }
+}

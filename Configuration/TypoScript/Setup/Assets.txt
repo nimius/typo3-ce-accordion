@@ -1,0 +1,15 @@
+/*
+ * This file is part of the "ce_accordion" Extension for TYPO3 CMS.
+ *
+ * For the full copyright and license information, please read the
+ * LICENSE.txt file that was distributed with this source code.
+ */
+
+/*
+ * Accordion assets loading.
+ *
+ * This is only required if you want to have assets loaded
+ * through TypoScript. If you're using a task runner, include
+ * the following paths manually.
+ */
+// TODO implement

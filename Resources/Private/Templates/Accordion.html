@@ -1,0 +1,13 @@
+{namespace ce=NIMIUS\CeAccordion\ViewHelpers}
+
+<div class="c-accordion">
+    <f:for each="{ce:AccordionArray(data: data)}" as="contentElement">
+        <div class="c-accordion-item">
+            <h2>{contentElement.header}</h2>
+
+            <div class="c-accordion-item__body">
+                <f:format.raw>{contentElement.body}</f:format.raw>
+            </div>
+        </div>
+    </f:for>
+</div>
